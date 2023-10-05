@@ -1,0 +1,139 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 sept 2023, 21:48:09
+    Author     : wennd
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    background-color:#CC99FF;
+    width: 100%;
+    list-style-type: none;
+    text-align: center
+}
+nav li{
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: purple;
+}
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+.articulos {
+    widows: 80%;
+    border-right: 3px solid black;
+}
+.secciones{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.menu-secundario{
+    width: 20%;
+    margin-top: 60px;
+}
+.menu-secundario a {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+.footer{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: red;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+    width: 1280px;
+    height: auto;
+    margin:50px auto 0;
+    overflow: hidden;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+    width: 40%;
+    list-style: none;
+}
+
+.slider-frame img {
+    width: 40%;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
